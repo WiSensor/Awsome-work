@@ -1,4 +1,4 @@
-# WiSensor: WiFi Sensing Reserch Group
+# WiSensor: WiFi Sensing Platform Software
 
 Scan your body with comodity wifi card
 
@@ -7,4 +7,8 @@ With Intel 9300 NIC and modified device driver, we build a WiFi sensing system s
 - One-key install:  we provide a downlaod-and-install script
 - Deb release: you don't need to build the kernel, or any kernel module, but required to know how to install a deb-packed software.
 - Command-line operation: just like how the git works, enter some command, done.
-- Modularization: 
+- Modularization: Modules provide user function and they share a common interface to interact with the kernel of the tool. 
+- Extensiable: Implement C++ interface and run your own function
+
+## Download
+
